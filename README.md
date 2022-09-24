@@ -45,8 +45,17 @@ Integrated Development Environment (IDE)
 ### 6. https://etherscan.io/ 
     - Ethereum blockchain explorer. You need Account, this is the Ethereum network
 
-### 7. myetherwallet.com
+### 7. https://myetherwallet.com
     - public and Private Keys (Your online Wallet)
 
 ### 8. https://andersbrownworth.com/
     - Online tool to simulate Hashing, None (Mining) and Blockchain.
+    
+## What I am using
+    - Truffle https://www.trufflesuite.com/
+        - Manage smart contract development, testing, deployment
+    - Solidity compiler (solc) https://github.com/ethereum/solidity
+        - Solidity software, includes CLI, Compiler to generate Byte Code from Solidity Code.
+    - Solidity compiler for Javascript (solcjs) https://github.com/ehtereum/solc-js
+    - Remix https://remix.ethereum.org/
+        - Web-based, suit of development tools, includes Solidity compiler.     
