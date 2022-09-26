@@ -36,23 +36,23 @@ Integrated Development Environment (IDE)
 ### 5. Your testing environment (Simulated environment)
     - This is for testing your code, because once you deploy something on the public blockchain, you can't undone it.
     - Blocks and Transactions can only be Created. You can't Delete and Update and existing block/transactions.
-    - Such environment are as follows
+    - Such environment are as follows:
       - Ganache - Get it from https://www.trufflesuite.com/ganache
       - Truffle - Get it from https://www.trufflesuite.com/
       - Cliquebait - A docker instance - Get it from https://github.com/f-o-a-m/cliquebait
       - Local Ethereum Network - Easy to setup scripts to setup pvt blockchain network - Get it from https://github.com/ConsenSysMesh/local_ethereum_network 
 
 ### 6. https://etherscan.io/ 
-    - Ethereum blockchain explorer. You need Account, this is the Ethereum network
+    - Ethereum blockchain explorer. You need Account, this is the Ethereum network.
 	
 ### 7. https://ethereum.org/
-	- Ethereum Community, Resources, Articles, Guides etc
+	- Ethereum Community, Resources, Articles, Guides etc.
 
 ### 8. https://myetherwallet.com
-    - public and Private Keys (Your online Wallet)
+    - public and Private Keys (Your online Wallet).
 
 ### 9. https://andersbrownworth.com/
-    - Online tool to simulate Hashing, None (Mining) and Blockchain.
+    - Online tool to simulate Hashing, NONCE calculation (Mining) and Blockchaining simulation.
     
 ## What I am using
     - GoEthereum (GETH) an EVM. (https://GETH.Ethereum.org)	  
@@ -75,7 +75,7 @@ Integrated Development Environment (IDE)
 		- Compiling
 		- Moving / Deployments
 		- Testing
-		- It's an NPM package (Javascript library) so Install using the below command
+		- It's an NPM package (Javascript library) so Install using the below command from the install directory:
 			- npm install truffle -g
 			- truffle version 
 	- Visual Studio Code IDE
