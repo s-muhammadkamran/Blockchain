@@ -44,18 +44,48 @@ Integrated Development Environment (IDE)
 
 ### 6. https://etherscan.io/ 
     - Ethereum blockchain explorer. You need Account, this is the Ethereum network
+	
+### 7. https://ethereum.org/
+	- Ethereum Community, Resources, Articles, Guides etc
 
-### 7. https://myetherwallet.com
+### 8. https://myetherwallet.com
     - public and Private Keys (Your online Wallet)
 
-### 8. https://andersbrownworth.com/
+### 9. https://andersbrownworth.com/
     - Online tool to simulate Hashing, None (Mining) and Blockchain.
     
 ## What I am using
-    - Truffle https://www.trufflesuite.com/
-        - Manage smart contract development, testing, deployment
+    - GoEthereum (GETH) an EVM. (https://GETH.Ethereum.org)	  
+		- GETH is a full Ethereum blockchain node connected to Ethereum main net. You can do the following:
+			- Access the complete blockchain
+			- Run the EVM
+			- Mine ether
+			- Create transactions and smart contracts
+			- Examine blocks.
+		- Run it in light mode using command .\geth --syncmode "light"
+	- Ganache https://www.trufflesuite.com/ganache 
+		- A Test blockchain EVM to develop and test your smart contract code before deploying.
+			- Test blockchain
+			- Deploy Contracts and Test locally
+			- Develop Applications
+			- Run tests
+			- Gives you 10 Test Accounts, each with 100 ETH. To test your Apps.
+    - Truffle Suite https://www.trufflesuite.com/
+        - Manage Smart Contract Development
+		- Compiling
+		- Moving / Deployments
+		- Testing
+		- It's an NPM package (Javascript library) so Install using the below command
+			- npm install truffle -g
+			- truffle version 
+	- Visual Studio Code IDE
+		- For writing Smart Contract code in Solidity
+		- Install Solidity Extension for Visual Studio Code (from Juan Blanco)
+			- Auto Code completion
+			- Syntax help
     - Solidity compiler (solc) https://github.com/ethereum/solidity
-        - Solidity software, includes CLI, Compiler to generate Byte Code from Solidity Code.
+        - Solidity software, includes CLI, Compiler to generate Byte Code from Solidity Code.		
     - Solidity compiler for Javascript (solcjs) https://github.com/ehtereum/solc-js
+		- Will be install along with Truffle
     - Remix https://remix.ethereum.org/
-        - Web-based, suit of development tools, includes Solidity compiler.     
+        - Web-based, suite of development tools, includes Solidity compiler.     
