@@ -1,0 +1,51 @@
+C:\Projects\Learning\Blockchain\HelloBlockchain>truffle compile
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\HelloWorld.sol
+> Artifacts written to C:\Projects\Learning\Blockchain\HelloBlockchain\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.17+commit.8df45f5f.Emscripten.clang
+
+C:\Projects\Learning\Blockchain\HelloBlockchain>truffle deploy --reset
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\HelloWorld.sol
+> Artifacts written to C:\Projects\Learning\Blockchain\HelloBlockchain\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.17+commit.8df45f5f.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_HelloWorld_migration.js
+=========================
+
+   Replacing 'HelloWorld'
+   ----------------------
+   > transaction hash:    0xc15a1e3561a6eb986abc4ef7b3825966f5577debd2a956f24cdcf0c1bcb38b6d
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xA67a315AdC7743E24024c806d25d861271c10279
+   > block number:        1
+   > block timestamp:     1664278590
+   > account:             0x822EE00a7d3b65ABe48d4cd8e829BFE1e9C853Aa
+   > balance:             99.99587188
+   > gas used:            206406 (0x32646)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00412812 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00412812 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00412812 ETH
