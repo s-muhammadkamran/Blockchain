@@ -77,3 +77,18 @@ SupplyChain.deployed().then(function(instance) {return instance.getProvenance(2)
 SupplyChain.deployed().then(function(instance) {return instance.getProvenance(3)});
 SupplyChain.deployed().then(function(instance) {return instance.getProvenance(4)});
 SupplyChain.deployed().then(function(instance) {return instance.getProvenance(5)});
+
+//
+//
+//
+
+function addParticipant(string name, string pass, address pAdd, string pType) public returns (uint)
+function getParticipant(uint p_id) public view returns (string,address,string)
+function addProduct(uint own_id, string modelNumber, string partNumber, string serialNumber, uint productCost) public returns (uint)
+function getProduct(uint prod_id) public view returns (string,string,string,uint,address,uint)
+
+function newOwner(uint user1_id ,uint user2_id, uint prod_id) onlyOwner(prod_id) public returns(bool)
+/* function getProductRegistrationHistory(uint prod_id)  public  returns (registration[]) */
+function getOwnership(uint reg_id)  public view returns (uint,uint,address,uint)
+/* function getRegistraionList(uint prod_id) public returns (uint) */
+function authenticateParticipant(uint uid ,string uname ,string pass ,string utype) public view returns (bool)
