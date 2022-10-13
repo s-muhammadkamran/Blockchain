@@ -75,12 +75,21 @@
 - Run it in light mode using command .\geth --syncmode "light"
 
 - Ganache https://www.trufflesuite.com/ganache 
-- A Test blockchain EVM to develop and test your smart contract code before deploying.
+- A Development/Test local blockchain EVM to develop and test your smart contract code before deploying.
 	- Test blockchain
 	- Deploy Contracts and Test locally
 	- Develop Applications
 	- Run tests
 	- Gives you 10 Test Accounts, each with 100 ETH. To test your Apps.
+	
+- Ropsten Network (Deprecated Use Goerli and Sepolia)
+- An online Public Test blockchain Network.
+- You can test ur SmartContracts in an online public network b4 going mainnet.
+- There are other options as well such as 
+	- Rinkeby
+	- Kovan
+- Infura https://infura.io/
+	- Let you connect to multiple networks
 
 - Truffle Suite https://www.trufflesuite.com/
 - Manage Smart Contract Development
