@@ -8,10 +8,9 @@ pragma solidity >=0.4.22 <0.9.0;
 import "./ERC20Interface.sol";
 
 contract ERC20Token is ERC20Interface {
-
-  uint256 constant private MAX_UINT256 = 2**256 - 1;                
-  mapping (address => uint256) public balances;                      
-  mapping (address => mapping (address => uint256)) public allowed;  
+  uint256 constant private MAX_UINT256 = 2**256 - 1;
+  mapping (address => uint256) public balances;
+  mapping (address => mapping (address => uint256)) public allowed;
 
   uint256 public totSupply;     // Total number of tokens
   string public name;           // Descriptive name (i.e. For Dummies Sample Token)
@@ -32,14 +31,13 @@ contract ERC20Token is ERC20Interface {
     symbol = _tokenSymbol;                   // Store the token symbol (used for display only)
   }
 
-
   // Transfer tokens from msg.sender to a specified address
   function transfer(address _to, uint256 _value) public override returns (bool success) {
     require(balances[msg.sender] >= _value, "Insufficient funds for transfer source.");
     balances[msg.sender] -= _value;
     balances[_to] += _value;
     emit Transfer(msg.sender, _to, _value); //solhint-disable-line indent, no-unused-vars
-    return true;  
+    return true;
   }
 
   // Transfer tokens from one specified address to another specified address
@@ -52,7 +50,7 @@ contract ERC20Token is ERC20Interface {
       allowed[_from][msg.sender] -= _value;
     }
     emit Transfer(_from, _to, _value); //solhint-disable-line indent, no-unused-vars
-    return true;  
+    return true;
   }
 
   // Return the current balance (in tokens) of a specified address)
