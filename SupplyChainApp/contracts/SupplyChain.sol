@@ -7,9 +7,6 @@ contract SupplyChain {
   uint32 public participant_id = 0;
   uint32 public owner_id = 0;
 
-  //constructor() {
-  //}
-
   struct product {
     string modelNumber;
     string partNumber;
